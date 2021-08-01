@@ -32,7 +32,7 @@ def get_data():
 
     # dom = etree.HTML(str(soup)) dt = dom.xpath('/html/body/div[1]/div[2]/section/div/div/div/div/div[
     # 1]/section/div/div[2]/div/section[1]/div[2]/div[2]/div/div[3]/div/div[1]') print(dt)
-
+    # you can use for if u want :D 
     total_data = soup.find_all("div", class_="row mt-5")
     data_vn = total_data[0].find_all('span')
     data_world = total_data[1].find_all('span')
